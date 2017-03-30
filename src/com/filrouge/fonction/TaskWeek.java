@@ -28,8 +28,8 @@ public class TaskWeek extends TimerTask {
 		String jour = auj.toString();
 		jour += ".pdf";
 		String DEST = "/Users/59013-89-06/workspace/FilRouge/WebContent/WEB-INF/results/cantine";
-		final String username = "louis.devergnies@gmail.com";
-		final String password = "XDjlbjej";
+		final String username = "adressemail";
+		final String password = "password";
 
 		Properties props = new Properties();
 		props.put("mail.smtp.auth", "true");
