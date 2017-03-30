@@ -1,0 +1,43 @@
+.jquerycssmenu{
+
+}
+
+.jquerycssmenu ul{
+}
+
+/*Top level list items*/
+.jquerycssmenu ul li{
+position: relative;
+}
+
+/*Top level menu link items style*/
+.jquerycssmenu ul li a{
+}
+
+.jquerycssmenu ul li a:hover{ /*tab link background during hover state*/
+}
+	
+/*1st sub level menu*/
+.jquerycssmenu ul li ul{
+position: absolute;
+visibility: hidden;
+background-color : #f2f2f2;
+}
+
+/*Sub level menu list items (undo style from Top level List Items)*/
+.jquerycssmenu ul li ul li{
+}
+
+/*All subsequent sub menu levels vertical offset after 1st level sub menu */
+.jquerycssmenu ul li ul li ul{
+}
+
+/* Sub level menu links style */
+.jquerycssmenu ul li ul li a{
+}
+
+.jquerycssmenu ul li ul li a:hover{ 
+}
+
+/* ######### CSS classes applied to down and right arrow images  ######### */
+
