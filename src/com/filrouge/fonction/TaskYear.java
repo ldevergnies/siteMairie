@@ -91,8 +91,8 @@ public class TaskYear extends TimerTask {
 		String jour = Integer.toString(auj.getYear());
 		String DEST = "/Users/59013-89-06/workspace/FilRouge/WebContent/WEB-INF/results/"+ jour;
 		String NAME = parent.getNom() + parent.getPrenom() + ".pdf";
-		final String username = "louis.devergnies@gmail.com";
-		final String password = "XDjlbjej";
+		final String username = "adressemail";
+		final String password = "password";
 
 		Properties props = new Properties();
 		props.put("mail.smtp.auth", "true");
